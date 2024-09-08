@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSStudy.BusinessLayer", "CQRSStudy.BusinessLayer\CQRSStudy.BusinessLayer.csproj", "{C46951C7-36CF-40A2-BFA8-AF4E81AD7E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSStudy.Web", "CQRSStudy.Web\CQRSStudy.Web.csproj", "{CC8DA29D-CB16-49EF-9928-9AC3AF4383DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C46951C7-36CF-40A2-BFA8-AF4E81AD7E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46951C7-36CF-40A2-BFA8-AF4E81AD7E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46951C7-36CF-40A2-BFA8-AF4E81AD7E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46951C7-36CF-40A2-BFA8-AF4E81AD7E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8DA29D-CB16-49EF-9928-9AC3AF4383DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8DA29D-CB16-49EF-9928-9AC3AF4383DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8DA29D-CB16-49EF-9928-9AC3AF4383DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8DA29D-CB16-49EF-9928-9AC3AF4383DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93B1E709-6D7A-4BB9-A847-D1ED20FB1DF1}
+	EndGlobalSection
+EndGlobal
