@@ -32,7 +32,8 @@
 <pre>
 📁 CQRSStudy
 │
-├── 📁 CQRSStudy.BusinessLayer
+├── CQRSStudy.BusinessLayer
+    ├── Dependencies
 │   ├── 📁 CQRS
 │   │   ├── 📁 Commands
 │   │   │   ├── 📁 Product
@@ -89,7 +90,7 @@
 │   │   ├── ApplicationDbContextModelSnapshot.cs
 │   │   ├── ApplicationDbContext.cs
 │
-├── 📁 CQRSStudy.Web
+├── CQRSStudy.Web
 │   ├── 📁 Controllers
 │   │   ├── ProductController.cs
 │   ├── 📁 Properties
