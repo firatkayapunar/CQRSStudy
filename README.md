@@ -113,7 +113,7 @@
 ---
 
 <p> 
-  <strong>Ek Notlar:</strong>  <br>
+  <strong>Ek Notlar</strong>  <br>
   CQRS ve Mediator Pattern ile ilgili daha detaylı bilgiler için yazdığım makaleye göz atabilirsiniz: <br>
   📖 <a href="https://medium.com/@firatkayapunar/cqrs-ve-mediator-pattern-i%CC%87le-geli%C5%9Fmi%C5%9F-uygulama-mimarisi-b897fe397ff6" target="_blank">
 CQRS ve Mediator Pattern ile Gelişmiş Uygulama Mimarisi
