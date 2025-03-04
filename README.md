@@ -1,4 +1,4 @@
-<h1 align="center">CQRSStudy - CQRS - Mediator Kullanımı</h1>
+<h1 align="center">CQRS - Mediator Kullanımı</h1>
 
 <p align="center"> 
   Bu proje, <strong>CQRS</strong> (Command Query Responsibility Segregation) ve <strong>Mediator Pattern</strong>'ın 
@@ -30,10 +30,10 @@
 <h2>📂 Proje Yapısı</h2>
 
 <pre>
-📁 CQRSStudy
+📦 CQRSStudy
 │
-├── CQRSStudy.BusinessLayer
-    ├── Dependencies
+├── 📄 CQRSStudy.BusinessLayer
+│   ├── Dependencies
 │   ├── 📁 CQRS
 │   │   ├── 📁 Commands
 │   │   │   ├── 📁 Product
@@ -88,13 +88,13 @@
 │   ├── 📁 Migrations
 │   │   ├── 20240907141340_InitialCreate.cs
 │   │   ├── ApplicationDbContextModelSnapshot.cs
-│   │   ├── ApplicationDbContext.cs
+│   ├── ApplicationDbContext.cs
 │
-├── CQRSStudy.Web
+├── 📄 CQRSStudy.Web
+│   ├── Dependencies
+│   ├── 📁 Properties
 │   ├── 📁 Controllers
 │   │   ├── ProductController.cs
-│   ├── 📁 Properties
-│   ├── Dependencies
 │   ├── appsettings.json
 │   ├── Program.cs
 </pre>
