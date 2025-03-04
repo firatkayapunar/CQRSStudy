@@ -106,15 +106,15 @@
 <ul> 
   <li><strong>.NET 8</strong></li> 
   <li><strong>Entity Framework Core</strong></li> 
-  <li><strong>MediatR (Mediator Pattern)</strong></li> 
-  <li><strong>CQRS (Command Query Responsibility Segregation)</strong></li> 
+  <li><strong>MediatR</strong> (Mediator Pattern)</li> 
+  <li><strong>CQRS</strong> (Command Query Responsibility Segregation)</li> 
   <li><strong>MSSQL</strong> (Veritabanı)</li> 
 </ul>
 
 ---
 
 <p> 
-  <strong>Ek Notlar</strong>  <br>
+    <h3>Not:</h3>
   CQRS ve Mediator Pattern ile ilgili daha detaylı bilgiler için yazdığım yazıya göz atabilirsiniz: <br>
   📖 <a href="https://medium.com/@firatkayapunar/cqrs-ve-mediator-pattern-i%CC%87le-geli%C5%9Fmi%C5%9F-uygulama-mimarisi-b897fe397ff6" target="_blank">
 CQRS ve Mediator Pattern ile Gelişmiş Uygulama Mimarisi
