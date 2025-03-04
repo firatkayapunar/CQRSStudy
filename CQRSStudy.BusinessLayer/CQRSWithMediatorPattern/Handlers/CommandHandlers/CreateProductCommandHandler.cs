@@ -4,7 +4,7 @@ using MediatR;
 
 namespace CQRSStudy.BusinessLayer.CQRSWithMediatorPattern.Handlers.CommandHandlers
 {
-    //IRequestHandler ise command yahut query requestlerinin işlenmesini sağlayacak olan Handler sınıflarının arayüzüdür.Generic olarak request ve response sınıflarının bildirilmesini ister ve ilgili sınıfa içerisindeki ‘Handle’ isimli fonksiyonu implemente ettirir.
+    // IRequestHandler ise command yahut query requestlerinin işlenmesini sağlayacak olan Handler sınıflarının arayüzüdür.Generic olarak request ve response sınıflarının bildirilmesini ister ve ilgili sınıfa içerisindeki ‘Handle’ isimli fonksiyonu implemente ettirir.
 
     public class CreateProductCommandHandler : IRequestHandler<CreateProductCommandRequest, CreateProductCommandResponse>
     {

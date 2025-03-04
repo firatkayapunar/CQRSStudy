@@ -7,7 +7,7 @@ namespace CQRSStudy.BusinessLayer
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=;Database=CRQSStudyDb;Integrated Security=True;Trust Server Certificate=True");
+            optionsBuilder.UseSqlServer("Data Source=localhost;Database=CRQSStudyDb;Integrated Security=True;Trust Server Certificate=True");
         }
         public DbSet<Product> Products { get; set; }
     }
